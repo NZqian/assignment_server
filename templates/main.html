@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Welcome
+    </title>
+</head>
+<body bgcolor="#000000", onload="init()">
+<script src="../static/leon.js"></script>
+<script src="../static/TweenMax.min.js"></script>
+<script>
+    let leon, canvas, ctx;
+
+const sw = 700;
+const sh = 500;
+const pixelRatio = 2;
+
+function init() {
+    canvas = document.getElementById("cv")
+
+
+    ctx = canvas.getContext("2d");
+
+    canvas.width = sw * pixelRatio;
+    canvas.height = sh * pixelRatio;
+    canvas.style.width = sw + 'px';
+    canvas.style.height = sh + 'px';
+    ctx.scale(pixelRatio, pixelRatio);
+
+    leon = new LeonSans({
+        text: 'Powered by\nNZqian',
+        color: ['#FFFFFF'],
+        size: 100,
+        weight: 300
+    });
+    let i, total = leon.drawing.length;
+    for (i = 0; i < total; i++) {
+        TweenMax.fromTo(leon.drawing[i], 1.6, {
+            value: 0
+        }, {
+            delay: i * 0.07,
+            value: 1,
+            ease: Power4.easeOut
+        });
+    }
+    requestAnimationFrame(animate);
+}
+
+function animate(t) {
+    requestAnimationFrame(animate);
+
+    ctx.clearRect(0, 0, sw, sh);
+
+    const x = (sw - leon.rect.w) / 2;
+    const y = (sh - leon.rect.h) / 2;
+    leon.position(x, y);
+
+    leon.draw(ctx);
+}
+
+</script>
+<canvas width="1600" height="1200" style="width: 1600px; height: 1200px;" id=cv></canvas>
+<a style="color:white; text-align:center; font-size:30px; text-decoration: none;", href="submit">>提交报告<</a>
+</body>

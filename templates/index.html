@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>僵尸企业画像及分类</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        .topborder {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: lightslategray;
+            border: none;
+
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            top: 0;
+            margin: auto;
+            height: 50px;
+        }
+
+
+        .button1 {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: rgb(255, 188, 4);
+            border: none;
+            border-radius: 15px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            left: 0px;
+            right: 0;
+            top: 505px;
+            margin: auto;
+            font-size: 24px;
+            font-weight: 500;
+            transition-duration: 0.4s;
+        }
+        .button3 {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: rgb(255, 188, 4);
+            border: none;
+            border-radius: 15px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            left: 700px;
+            right: 0;
+            top: 505px;
+            margin: auto;
+            font-size: 24px;
+            font-weight: 500;
+            transition-duration: 0.4s;
+        }
+        .button1:hover{
+            background-color: rgb(216, 158, 0);
+        }
+         .button4 {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: rgb(255, 188, 4);
+            border: none;
+            border-radius: 15px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            left: 700px;
+            right: 0;
+            top: 605px;
+            margin: auto;
+            font-size: 24px;
+            font-weight: 500;
+            transition-duration: 0.4s;
+        }
+        .button2 {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: slategray;
+            border: none;
+            border-radius: 15px;
+            position: absolute;
+            display: flex;
+            right: 0;
+            top:0;
+            margin: auto;
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+
+
+        .home {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .content {
+            perspective: 340px;
+            width: 100%;
+            position: relative;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        span {
+            display: block;
+            text-align: center;
+        }
+
+        @keyframes fly {
+            from {
+                transform: translateZ(0px);
+                opacity: .6;
+            }
+
+            to {
+                transform: translateZ(200px);
+                opacity: .8;
+            }
+        }
+
+        .title {
+            position: absolute;
+            display: flex;
+            left: 0;
+            right: 0;
+            top: 5px;
+            margin: auto;
+            bottom: 0;
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 1.5em;
+            font-family: "Amputa Bangiz";
+            color: orange;
+        }
+
+
+
+        .titless {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            left: 0;
+            right: 0;
+            top: 400px;
+            margin: auto;
+            bottom: 0;
+            color: black;
+            font-size: 28px;
+            font-weight: 500;
+        }
+
+        .aboutus {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            left: 0;
+            right: 1400px;
+            top: 800px;
+            margin: auto;
+            bottom: 100;
+            color: darkorange;
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+
+    </style>
+</head>
+
+
+<body>
+    <div class="home">
+        <div class="content">
+            <img class="bgc" src="\static\pic.png" width="100%" alt="" height="955">
+            <div class="topborder"></div>
+            <h3 class="title">Zombie Company Detection</h3>
+            <h3 class="titless">请上传数据文件</h3>
+            <h3 class="aboutus">关于我们：宁、杜、张、卞、李</h3>
+
+            <button class="button2">≡</button>
+
+            <form action="" enctype='multipart/form-data' method='POST'>
+                <input type="file" name="file" class="button1">
+                <input type="submit" value="上传"  class="button3">
+            </form>
+
+            <a href="\static\result.txt" download="result.txt">
+                <button type="button"  class="button4">Get result</button>
+            </a>
+
+        </div>
+    </div>
+</body>
+
+</html>

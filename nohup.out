@@ -1,0 +1,410 @@
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on https://0.0.0.0:433/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 209-869-170
+223.154.9.14 - - [29/Mar/2020 15:01:26] "[37mGET /submit HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:06:39] "[37mGET / HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:06:40] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:06:40] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:06:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.44.137.8 - - [29/Mar/2020 15:06:49] "[37mGET /submit HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:06:55] "[32mPOST /submit HTTP/1.1[0m" 302 -
+36.44.137.8 - - [29/Mar/2020 15:06:55] "[37mGET /fail HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:06:59] "[37mGET / HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:06:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.44.137.8 - - [29/Mar/2020 15:07:03] "[37mGET / HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:07:03] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:07:03] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:07:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.44.137.8 - - [29/Mar/2020 15:07:07] "[37mGET /submit HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:07:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.44.137.8 - - [29/Mar/2020 15:07:32] "[32mPOST /submit HTTP/1.1[0m" 302 -
+36.44.137.8 - - [29/Mar/2020 15:07:32] "[37mGET /fail HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:07:39] "[37mGET /submit HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:07:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.44.137.8 - - [29/Mar/2020 15:07:47] "[32mPOST /submit HTTP/1.1[0m" 302 -
+36.44.137.8 - - [29/Mar/2020 15:07:47] "[37mGET /fail HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:21:34] "[37mGET / HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:21:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.44.137.8 - - [29/Mar/2020 15:21:36] "[37mGET /submit HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:21:44] "[37mGET /submit HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 15:21:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.44.137.8 - - [29/Mar/2020 15:21:53] "[32mPOST /submit HTTP/1.1[0m" 302 -
+36.44.137.8 - - [29/Mar/2020 15:21:53] "[37mGET /fail HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 16:12:41] "[37mGET / HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 16:12:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.44.137.8 - - [29/Mar/2020 16:12:44] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 16:36:06] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 16:36:06] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 16:36:06] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 16:36:06] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 16:36:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.154.9.14 - - [29/Mar/2020 16:36:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.154.9.14 - - [29/Mar/2020 16:36:10] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 16:36:12] "[32mPOST /submit HTTP/1.1[0m" 302 -
+223.154.9.14 - - [29/Mar/2020 16:36:13] "[37mGET /fail HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 16:36:15] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 16:38:38] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 16:38:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.154.9.14 - - [29/Mar/2020 16:38:41] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 16:38:46] "[32mPOST /submit HTTP/1.1[0m" 302 -
+223.154.9.14 - - [29/Mar/2020 16:38:46] "[37mGET /fail HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 16:38:48] "[37mGET /submit HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 17:28:17] "[37mGET / HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 17:28:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.44.137.8 - - [29/Mar/2020 17:28:24] "[37mGET /submit HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 17:28:40] "[37mGET / HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 17:28:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.44.137.8 - - [29/Mar/2020 17:28:54] "[37mGET / HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 17:28:54] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 17:28:54] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+36.44.137.8 - - [29/Mar/2020 17:28:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.44.137.8 - - [29/Mar/2020 17:28:59] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 17:57:53] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:01:18] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:01:18] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:01:18] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:01:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.154.9.14 - - [29/Mar/2020 18:01:21] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:01:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.154.9.14 - - [29/Mar/2020 18:01:35] "[32mPOST /submit HTTP/1.1[0m" 302 -
+223.154.9.14 - - [29/Mar/2020 18:01:35] "[37mGET /fail HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:01:39] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:01:48] "[32mPOST /submit HTTP/1.1[0m" 302 -
+223.154.9.14 - - [29/Mar/2020 18:01:48] "[37mGET /fail HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:01:49] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:01:50] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:01:54] "[32mPOST /submit HTTP/1.1[0m" 302 -
+223.154.9.14 - - [29/Mar/2020 18:01:54] "[37mGET /fail HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:01:56] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:02:00] "[32mPOST /submit HTTP/1.1[0m" 302 -
+223.154.9.14 - - [29/Mar/2020 18:02:01] "[37mGET /fail HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:02:03] "[37mGET /submit HTTP/1.1[0m" 200 -
+ * Detected change in '/home/ning/assignment_server/server.py', reloading
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 209-869-170
+223.154.9.14 - - [29/Mar/2020 18:03:12] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:03:15] "[32mPOST /submit HTTP/1.1[0m" 302 -
+223.154.9.14 - - [29/Mar/2020 18:03:16] "[37mGET /success HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:03:33] "[37mGET /fail HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:03:35] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:03:35] "[37mGET /fail HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:03:36] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:03:36] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:03:39] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:03:41] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:03:46] "[32mPOST /submit HTTP/1.1[0m" 302 -
+223.154.9.14 - - [29/Mar/2020 18:03:46] "[37mGET /success HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:03:49] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:03:49] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [29/Mar/2020 18:21:41] "[37mGET / HTTP/1.1[0m" 200 -
+111.8.76.199 - - [29/Mar/2020 20:08:06] "[37mGET / HTTP/1.1[0m" 200 -
+111.8.76.199 - - [29/Mar/2020 20:08:07] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+111.8.76.199 - - [29/Mar/2020 20:08:07] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+111.8.76.199 - - [29/Mar/2020 20:08:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+111.8.76.199 - - [29/Mar/2020 20:08:10] "[37mGET /submit HTTP/1.1[0m" 200 -
+180.163.220.68 - - [29/Mar/2020 20:08:12] "[37mGET / HTTP/1.1[0m" 200 -
+180.163.220.4 - - [29/Mar/2020 20:08:14] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+180.163.220.3 - - [29/Mar/2020 20:08:14] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+42.236.10.125 - - [29/Mar/2020 20:08:17] "[37mGET /submit HTTP/1.1[0m" 200 -
+180.163.220.68 - - [29/Mar/2020 20:08:22] "[37mGET / HTTP/1.1[0m" 200 -
+180.163.220.66 - - [29/Mar/2020 20:08:22] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+180.163.220.66 - - [29/Mar/2020 20:08:22] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+60.211.135.148 - - [29/Mar/2020 21:21:47] "[37mGET / HTTP/1.1[0m" 200 -
+60.211.135.148 - - [29/Mar/2020 21:21:47] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+60.211.135.148 - - [29/Mar/2020 21:21:47] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+60.211.135.148 - - [29/Mar/2020 21:21:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+60.211.135.148 - - [29/Mar/2020 21:21:53] "[37mGET /submit HTTP/1.1[0m" 200 -
+60.211.135.148 - - [29/Mar/2020 21:21:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+60.211.135.148 - - [29/Mar/2020 21:21:57] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [30/Mar/2020 10:44:24] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [30/Mar/2020 10:44:24] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+223.154.9.14 - - [30/Mar/2020 10:44:24] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+223.154.9.14 - - [30/Mar/2020 10:44:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.154.9.14 - - [30/Mar/2020 10:44:27] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.107.129.67 - - [30/Mar/2020 14:40:03] "[37mGET / HTTP/1.1[0m" 200 -
+223.107.129.67 - - [30/Mar/2020 14:40:03] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+223.107.129.67 - - [30/Mar/2020 14:40:03] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+223.107.129.67 - - [30/Mar/2020 14:40:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.107.129.67 - - [30/Mar/2020 14:40:09] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.107.129.67 - - [30/Mar/2020 14:40:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.107.129.67 - - [30/Mar/2020 14:40:14] "[37mGET / HTTP/1.1[0m" 200 -
+111.16.237.23 - - [30/Mar/2020 15:26:31] "[37mGET / HTTP/1.1[0m" 200 -
+111.16.237.23 - - [30/Mar/2020 15:26:31] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+111.16.237.23 - - [30/Mar/2020 15:26:31] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+111.16.237.23 - - [30/Mar/2020 15:26:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+111.16.237.23 - - [30/Mar/2020 15:26:49] "[37mGET / HTTP/1.1[0m" 200 -
+111.16.237.23 - - [30/Mar/2020 15:26:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+111.16.237.23 - - [30/Mar/2020 15:27:01] "[37mGET / HTTP/1.1[0m" 200 -
+111.16.237.23 - - [30/Mar/2020 15:27:01] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+111.16.237.23 - - [30/Mar/2020 15:27:01] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+111.16.237.23 - - [30/Mar/2020 15:27:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+111.16.237.23 - - [30/Mar/2020 15:27:05] "[37mGET /submit HTTP/1.1[0m" 200 -
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on https://0.0.0.0:433/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 209-869-170
+223.154.9.14 - - [02/Apr/2020 10:07:07] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [02/Apr/2020 10:07:08] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [02/Apr/2020 10:07:08] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [02/Apr/2020 10:07:13] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [02/Apr/2020 10:07:13] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [02/Apr/2020 10:07:13] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [02/Apr/2020 10:07:15] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [02/Apr/2020 10:07:18] "[37mGET /submit HTTP/1.1[0m" 200 -
+117.136.101.121 - - [02/Apr/2020 17:07:48] "[37mGET / HTTP/1.1[0m" 200 -
+117.136.101.121 - - [02/Apr/2020 17:07:49] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+117.136.101.121 - - [02/Apr/2020 17:07:49] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+117.136.101.121 - - [02/Apr/2020 17:07:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.136.101.121 - - [02/Apr/2020 17:07:53] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [02/Apr/2020 20:13:43] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [02/Apr/2020 20:13:43] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [02/Apr/2020 20:13:43] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [03/Apr/2020 09:47:34] "[37mGET /submit HTTP/1.1[0m" 200 -
+183.202.90.57 - - [03/Apr/2020 11:14:27] "[37mGET / HTTP/1.1[0m" 200 -
+183.202.90.57 - - [03/Apr/2020 11:14:27] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+183.202.90.57 - - [03/Apr/2020 11:14:27] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+183.202.90.57 - - [03/Apr/2020 11:14:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+183.202.90.57 - - [03/Apr/2020 11:14:33] "[37mGET /submit HTTP/1.1[0m" 200 -
+111.18.68.80 - - [03/Apr/2020 11:15:46] "[37mGET / HTTP/1.1[0m" 200 -
+111.18.68.80 - - [03/Apr/2020 11:15:46] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+111.18.68.80 - - [03/Apr/2020 11:15:46] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+111.18.68.80 - - [03/Apr/2020 11:15:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+111.18.68.80 - - [03/Apr/2020 11:15:49] "[37mGET /submit HTTP/1.1[0m" 200 -
+111.18.68.80 - - [03/Apr/2020 11:15:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.24.96.168 - - [03/Apr/2020 11:32:42] "[37mGET / HTTP/1.1[0m" 200 -
+36.24.96.168 - - [03/Apr/2020 11:32:42] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+36.24.96.168 - - [03/Apr/2020 11:32:42] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+36.24.96.168 - - [03/Apr/2020 11:32:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.24.96.168 - - [03/Apr/2020 11:32:49] "[37mGET /submit HTTP/1.1[0m" 200 -
+36.24.96.168 - - [03/Apr/2020 11:32:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.154.9.14 - - [03/Apr/2020 11:39:53] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [03/Apr/2020 11:39:53] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [03/Apr/2020 11:39:53] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+ * Detected change in '/home/ning/assignment_server/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 209-869-170
+223.154.9.14 - - [03/Apr/2020 11:49:24] "[37mGET /submit HTTP/1.1[0m" 200 -
+ * Detected change in '/home/ning/assignment_server/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 209-869-170
+223.154.9.14 - - [03/Apr/2020 11:50:00] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [03/Apr/2020 11:50:14] "[32mPOST /submit HTTP/1.1[0m" 302 -
+223.154.9.14 - - [03/Apr/2020 11:50:14] "[37mGET /success HTTP/1.1[0m" 200 -
+in
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on https://0.0.0.0:433/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 209-869-170
+223.154.9.14 - - [03/Apr/2020 22:45:02] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [03/Apr/2020 22:45:02] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+223.154.9.14 - - [03/Apr/2020 22:45:02] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+223.154.9.14 - - [03/Apr/2020 22:45:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.134.235.90 - - [03/Apr/2020 22:45:44] "[37mGET / HTTP/1.1[0m" 200 -
+113.134.235.90 - - [03/Apr/2020 22:45:44] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+113.134.235.90 - - [03/Apr/2020 22:45:44] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+113.134.235.90 - - [03/Apr/2020 22:45:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.154.9.14 - - [03/Apr/2020 22:45:46] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [03/Apr/2020 22:45:46] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [03/Apr/2020 22:45:46] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+113.134.235.90 - - [03/Apr/2020 22:45:48] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [03/Apr/2020 22:45:53] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [03/Apr/2020 22:46:08] "[37mGET /submit HTTP/1.1[0m" 200 -
+117.136.101.180 - - [03/Apr/2020 22:47:21] "[37mGET / HTTP/1.1[0m" 200 -
+117.136.101.180 - - [03/Apr/2020 22:47:21] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+117.136.101.180 - - [03/Apr/2020 22:47:21] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+117.136.101.180 - - [03/Apr/2020 22:47:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.136.101.180 - - [03/Apr/2020 22:47:25] "[37mGET /submit HTTP/1.1[0m" 200 -
+113.134.235.90 - - [03/Apr/2020 22:47:27] "[32mPOST /submit HTTP/1.1[0m" 302 -
+113.134.235.90 - - [03/Apr/2020 22:47:28] "[37mGET /fail HTTP/1.1[0m" 200 -
+113.134.235.90 - - [03/Apr/2020 22:47:31] "[37mGET /submit HTTP/1.1[0m" 200 -
+113.134.235.90 - - [03/Apr/2020 22:47:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.134.235.90 - - [03/Apr/2020 22:47:44] "[32mPOST /submit HTTP/1.1[0m" 302 -
+113.134.235.90 - - [03/Apr/2020 22:47:44] "[37mGET /fail HTTP/1.1[0m" 200 -
+113.134.235.90 - - [03/Apr/2020 22:49:35] "[37mGET / HTTP/1.1[0m" 200 -
+113.134.235.90 - - [03/Apr/2020 22:49:37] "[37mGET /submit HTTP/1.1[0m" 200 -
+113.134.235.90 - - [03/Apr/2020 22:52:48] "[37mGET / HTTP/1.1[0m" 200 -
+113.134.235.90 - - [03/Apr/2020 22:53:05] "[32mPOST /submit HTTP/1.1[0m" 302 -
+113.134.235.90 - - [03/Apr/2020 22:53:05] "[37mGET /success HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 22:56:03] "[37mGET / HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 22:56:03] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 22:56:03] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 22:56:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.136.101.226 - - [03/Apr/2020 22:56:06] "[37mGET /submit HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 22:56:19] "[32mPOST /submit HTTP/1.1[0m" 302 -
+117.136.101.226 - - [03/Apr/2020 22:56:19] "[37mGET /success HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 22:56:25] "[37mGET /success HTTP/1.1[0m" 200 -
+223.154.9.14 - - [03/Apr/2020 23:07:12] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [03/Apr/2020 23:07:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.154.9.14 - - [03/Apr/2020 23:07:14] "[37mGET /submit HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 23:10:36] "[37mGET / HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 23:10:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.136.101.226 - - [03/Apr/2020 23:10:38] "[37mGET /submit HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 23:11:01] "[32mPOST /submit HTTP/1.1[0m" 302 -
+117.136.101.226 - - [03/Apr/2020 23:11:01] "[37mGET /success HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 23:11:47] "[37mGET / HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 23:11:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.136.101.226 - - [03/Apr/2020 23:11:50] "[37mGET /submit HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 23:11:53] "[32mPOST /submit HTTP/1.1[0m" 302 -
+117.136.101.226 - - [03/Apr/2020 23:11:53] "[37mGET /fail HTTP/1.1[0m" 200 -
+117.136.101.226 - - [03/Apr/2020 23:11:57] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.14 - - [04/Apr/2020 08:54:04] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [04/Apr/2020 08:54:04] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [04/Apr/2020 08:54:04] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [04/Apr/2020 12:07:57] "[37mGET / HTTP/1.1[0m" 200 -
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on https://0.0.0.0:433/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 209-869-170
+223.154.9.14 - - [04/Apr/2020 12:08:52] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [04/Apr/2020 12:08:58] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [04/Apr/2020 12:08:58] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [04/Apr/2020 12:08:58] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [04/Apr/2020 12:09:01] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [04/Apr/2020 12:09:01] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [04/Apr/2020 12:09:01] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [04/Apr/2020 12:09:04] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.14 - - [04/Apr/2020 12:09:04] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [04/Apr/2020 12:09:04] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+223.154.9.14 - - [04/Apr/2020 12:09:06] "[37mGET /submit HTTP/1.1[0m" 200 -
+113.132.22.136 - - [04/Apr/2020 13:06:28] "[37mGET / HTTP/1.1[0m" 200 -
+113.132.22.136 - - [04/Apr/2020 13:06:29] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+113.132.22.136 - - [04/Apr/2020 13:06:29] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+113.132.22.136 - - [04/Apr/2020 13:06:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+125.68.17.60 - - [04/Apr/2020 14:18:59] "[37mGET / HTTP/1.1[0m" 200 -
+125.68.17.60 - - [04/Apr/2020 14:18:59] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+125.68.17.60 - - [04/Apr/2020 14:18:59] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+125.68.17.60 - - [04/Apr/2020 14:19:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+125.68.17.60 - - [04/Apr/2020 14:19:05] "[37mGET /submit HTTP/1.1[0m" 200 -
+125.68.17.60 - - [04/Apr/2020 14:19:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+113.132.22.136 - - [04/Apr/2020 17:02:13] "[37mGET / HTTP/1.1[0m" 200 -
+113.132.22.136 - - [04/Apr/2020 17:02:15] "[37mGET /submit HTTP/1.1[0m" 200 -
+113.132.22.136 - - [04/Apr/2020 17:02:28] "[32mPOST /submit HTTP/1.1[0m" 302 -
+113.132.22.136 - - [04/Apr/2020 17:02:28] "[37mGET /success HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:34:33] "[37mGET / HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:34:33] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:34:33] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:34:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+125.76.213.53 - - [04/Apr/2020 17:34:41] "[37mGET /submit HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:35:46] "[32mPOST /submit HTTP/1.1[0m" 302 -
+125.76.213.53 - - [04/Apr/2020 17:35:46] "[37mGET /success HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:37:08] "[37mGET / HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:37:10] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:37:10] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:37:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+125.76.213.53 - - [04/Apr/2020 17:37:13] "[37mGET /submit HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:38:45] "[32mPOST /submit HTTP/1.1[0m" 302 -
+125.76.213.53 - - [04/Apr/2020 17:38:45] "[37mGET /fail HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:38:52] "[37mGET /submit HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:39:14] "[32mPOST /submit HTTP/1.1[0m" 302 -
+125.76.213.53 - - [04/Apr/2020 17:39:14] "[37mGET /fail HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:39:18] "[37mGET /submit HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:40:09] "[32mPOST /submit HTTP/1.1[0m" 302 -
+125.76.213.53 - - [04/Apr/2020 17:40:09] "[37mGET /fail HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:40:17] "[37mGET /submit HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:40:19] "[32mPOST /submit HTTP/1.1[0m" 302 -
+125.76.213.53 - - [04/Apr/2020 17:40:20] "[37mGET /fail HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:40:21] "[37mGET /submit HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 17:40:46] "[32mPOST /submit HTTP/1.1[0m" 302 -
+125.76.213.53 - - [04/Apr/2020 17:40:46] "[37mGET /fail HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 19:00:13] "[37mGET / HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 19:00:15] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 19:00:15] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 19:00:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+125.76.213.53 - - [04/Apr/2020 19:00:18] "[37mGET /submit HTTP/1.1[0m" 200 -
+125.76.213.53 - - [04/Apr/2020 19:02:09] "[32mPOST /submit HTTP/1.1[0m" 302 -
+125.76.213.53 - - [04/Apr/2020 19:02:09] "[37mGET /success HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 19:14:39] "[37mGET / HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 19:14:39] "[37mGET / HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 19:14:39] "[37mGET / HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 19:14:39] "[37mGET / HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 19:14:39] "[37mGET / HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 19:17:07] "[37mGET / HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 19:17:07] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 19:17:08] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 19:17:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+183.192.59.179 - - [04/Apr/2020 19:17:13] "[37mGET /submit HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 19:17:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+183.192.59.179 - - [04/Apr/2020 20:01:13] "[37mGET / HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 20:01:15] "[37mGET /submit HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 20:01:17] "[32mPOST /submit HTTP/1.1[0m" 302 -
+183.192.59.179 - - [04/Apr/2020 20:01:17] "[37mGET /fail HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 20:01:19] "[37mGET /submit HTTP/1.1[0m" 200 -
+183.192.59.179 - - [04/Apr/2020 20:01:34] "[32mPOST /submit HTTP/1.1[0m" 302 -
+183.192.59.179 - - [04/Apr/2020 20:01:34] "[37mGET /success HTTP/1.1[0m" 200 -
+120.228.118.95 - - [04/Apr/2020 21:04:47] "[37mGET / HTTP/1.1[0m" 200 -
+120.228.118.95 - - [04/Apr/2020 21:04:47] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+120.228.118.95 - - [04/Apr/2020 21:04:47] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+120.228.118.95 - - [04/Apr/2020 21:04:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+120.228.118.95 - - [04/Apr/2020 21:05:28] "[37mGET /submit HTTP/1.1[0m" 200 -
+120.228.118.95 - - [04/Apr/2020 21:05:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+120.228.118.95 - - [04/Apr/2020 21:05:33] "[37mGET / HTTP/1.1[0m" 200 -
+120.228.118.95 - - [04/Apr/2020 21:08:31] "[37mGET /submit HTTP/1.1[0m" 200 -
+120.228.118.95 - - [04/Apr/2020 21:08:41] "[32mPOST /submit HTTP/1.1[0m" 302 -
+120.228.118.95 - - [04/Apr/2020 21:08:41] "[37mGET /success HTTP/1.1[0m" 200 -
+123.148.132.83 - - [04/Apr/2020 21:09:23] "[37mGET / HTTP/1.1[0m" 200 -
+123.148.132.83 - - [04/Apr/2020 21:09:23] "[37mGET /static/leon.js HTTP/1.1[0m" 200 -
+123.148.132.83 - - [04/Apr/2020 21:09:24] "[37mGET /static/TweenMax.min.js HTTP/1.1[0m" 200 -
+123.148.132.83 - - [04/Apr/2020 21:09:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+123.148.132.83 - - [04/Apr/2020 21:09:31] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.46 - - [05/Apr/2020 09:55:14] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.46 - - [05/Apr/2020 09:55:14] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+223.154.9.46 - - [05/Apr/2020 09:55:14] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+223.154.9.46 - - [05/Apr/2020 10:01:16] "[37mGET / HTTP/1.1[0m" 200 -
+223.154.9.46 - - [05/Apr/2020 10:01:16] "[36mGET /static/TweenMax.min.js HTTP/1.1[0m" 304 -
+223.154.9.46 - - [05/Apr/2020 10:01:16] "[36mGET /static/leon.js HTTP/1.1[0m" 304 -
+223.154.9.46 - - [05/Apr/2020 10:01:17] "[37mGET /submit HTTP/1.1[0m" 200 -
+223.154.9.46 - - [05/Apr/2020 10:01:19] "[32mPOST /submit HTTP/1.1[0m" 302 -
+223.154.9.46 - - [05/Apr/2020 10:01:19] "[37mGET /fail HTTP/1.1[0m" 200 -
+223.154.9.46 - - [05/Apr/2020 10:02:04] "[37mGET /submit HTTP/1.1[0m" 200 -
+ * Detected change in '/home/ning/assignment_server/server.py', reloading
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+in
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/home/ning/assignment_server/server.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

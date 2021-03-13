@@ -61,4 +61,4 @@ def fail_suffix():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=433, ssl_context=("./ning.crt", "./ning.key"))
+    app.run(debug=True, host='0.0.0.0', port=80)
